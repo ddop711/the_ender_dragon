@@ -23,11 +23,11 @@
   --font-sub1-size: 1rem;
   --font-h2-size: 1rem;
   --font-h3-size: 1rem;
-  --color-headline-bg: #4b4545;
-  --color-headline-text-page: #42413d;
+  --color-headline-bg: #841a1a;
+  --color-headline-text-page: #ffffff;
 
   /* Tekst */
-  --color-text: #000;
+  --color-text: #ffffff;
   --color-text-inverted: #cdccc4;
 
   /*  Marginer */
@@ -66,4 +66,19 @@
   --color-info-bg: #676161;
   --color-infobox-1-bg: #cfcec6;
   --color-infobox-2-bg: #969995;
+
+  /* Minecraft colours  */
+  /* Overworld */
+  --color-dirt: #96632f;
+  --color-grass: #669f18;
+  --color-water: #387dfb;
+  --color-stone: #c2b7b4;
+  --color-sand: #fedfae;
+
+  /* Nether */
+  --color-nether-1: #950000;
+  --color-nether-2: #840000;
+  --color-nether-3: #6c0000;
+  --color-nether-4: #520000;
+  --color-nether-5: #370000;
 }

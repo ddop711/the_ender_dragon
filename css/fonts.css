@@ -24,3 +24,9 @@
   font-weight: var(--font-weight-medium);
   font-style: normal;
 }
+@font-face {
+  font-family: "Minecraft";
+  src: url(/fonts/minecraft_font.ttf);
+  font-weight: var(--font-weight-medium);
+  font-style: normal;
+}

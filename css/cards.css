@@ -91,3 +91,11 @@
   content: "\2192";
   margin-left: 1rem;
 }
+
+dialog {
+  background-color: blue;
+}
+
+::backdrop {
+  backdrop-filter: blur(5px);
+}
