@@ -3,9 +3,9 @@
   display: grid;
   grid-template-columns: 3fr 5fr;
   gap: 10px;
-  padding: 40px 0 40px 20px;
   border-radius: var(--border-radius);
   height: minmax(200px, min-content);
+  margin-bottom: 50px;
 }
 .daily_text {
   display: grid;
@@ -14,7 +14,7 @@
 }
 .daily_text h2 {
   background-color: var(--color-headline-bg);
-  color: var(--color-text-inverted);
+  color: var(--color-text);
   padding: calc(1.1rem / 1.5) 0 calc(1.1rem / 2) 1rem;
   margin: 0 0 0.5rem 0;
 }
@@ -36,8 +36,10 @@
   display: grid;
   grid-template-rows: repeat(min-content);
   gap: 0.4rem;
-  padding: 1rem 0;
+  padding-bottom: 1rem;
   height: minmax(300px, min-content);
+  border-bottom: solid 1px;
+  border-color: black;
 }
 .news_card:nth-child(2n) {
   background-color: var(--color-news-bg-inverted);
@@ -85,7 +87,7 @@
 }
 .news_card:nth-of-type(2n) .cta_btn {
   background-color: var(--color-cta-newscard-bg-inverted);
-  color: var(--color-text);
+  color: var(--color-text-inverted);
 }
 .cta_btn:after {
   content: "\2192";

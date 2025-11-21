@@ -1,8 +1,8 @@
-const html = document.querySelector("html");
+const html = document.documentElement;
 const btn = document.querySelector(".darkmodebtn");
 
-if (localStorage.getItem("darkmode")) {
-  html.classList.toggle("dark");
+if (localStorage.getItem("darkmode") === "true") {
+  html.classList.add("dark");
 }
 
 function toggleTheme() {
@@ -11,7 +11,7 @@ function toggleTheme() {
   if (html.classList.contains("dark")) {
     localStorage.setItem("darkmode", true);
   } else {
-    localStorage.setItem = ("darkmode", false);
+    localStorage.setItem("darkmode", false);
   }
 }
 

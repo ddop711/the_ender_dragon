@@ -21,7 +21,45 @@
   <header>
     <nav>
       <div id="logotype-wrapper" class="logo">
-        <a href="index.html"> LOGO-TYPE </a>
+        <a href="index.html">
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="25.13mm" height="12.22mm"
+            viewBox="0 0 173.29 136.67">
+            <g>
+              <rect x="17.28" y=".58" width="137.83" height="135.59" style="fill: #fdcc9a;" />
+              <path d="M155.61,136.67H16.78V.08h138.83v136.59ZM17.78,135.67h136.83V1.08H17.78v134.59Z" />
+            </g>
+            <g>
+              <polygon
+                points=".5 .5 .5 51.35 .5 68.3 17.73 68.3 17.73 51.35 69.42 51.35 69.42 85.24 103.88 85.24 103.88 51.35 155.56 51.35 155.56 68.3 172.79 68.3 172.79 51.35 172.79 .5 .5 .5"
+                style="fill: #69f6ff;" />
+              <path
+                d="M104.38,85.74h-35.46v-33.9H18.23v16.95H0V0h173.29v68.8h-18.23v-16.95h-50.69v33.9ZM69.92,84.74h33.46v-33.9h52.69v16.95h16.23V1H1v66.8h16.23v-16.95h52.69v33.9Z" />
+            </g>
+            <g>
+              <rect x="103.42" y="68.38" width="17.23" height="16.95" style="fill: #1c75bc;" />
+              <path d="M121.15,85.83h-18.23v-17.95h18.23v17.95ZM103.92,84.83h16.23v-15.95h-16.23v15.95Z" />
+            </g>
+            <g>
+              <rect x="120.65" y="68.38" width="17.23" height="16.95" style="fill: #fff;" />
+              <path d="M138.38,85.83h-18.23v-17.95h18.23v17.95ZM121.15,84.83h16.23v-15.95h-16.23v15.95Z" />
+            </g>
+            <g>
+              <rect x="34.51" y="68.38" width="17.23" height="16.95" style="fill: #fff;" />
+              <path d="M52.23,85.83h-18.23v-17.95h18.23v17.95ZM35.01,84.83h16.23v-15.95h-16.23v15.95Z" />
+            </g>
+            <g>
+              <rect x="51.73" y="68.38" width="17.23" height="16.95" style="fill: #1c75bc;" />
+              <path d="M69.46,85.83h-18.23v-17.95h18.23v17.95ZM52.23,84.83h16.23v-15.95h-16.23v15.95Z" />
+            </g>
+            <g>
+              <polygon
+                points="86.19 102.28 86.19 102.28 68.96 102.28 68.96 119.23 86.19 119.23 86.19 119.23 103.42 119.23 103.42 102.28 86.19 102.28"
+                style="fill: #d38766;" />
+              <path d="M103.92,119.73h-35.46v-17.95h35.46v17.95ZM69.46,118.73h33.46v-15.95h-33.46v15.95Z" />
+            </g>
+          </svg>
+        </a>
         <div class="darkmodebtn"><img src="img/nether_portal.jpg" alt="nether portal"></div>
       </div>
       <ul class="menu">
@@ -37,44 +75,49 @@
   </header>
   <section id="main-disclamer">
     <div id="main-disclamer-content">
-      <img src="warning" alt="ICON" />
+      <img id="enderdragonimg" src="/img/enderdragon.png" alt="enderdragon" />
       <div>
-        <h1>OVERSKRIFT</h1>
-        <p class="sub">Underrubrik</p>
+        <h1 id="indexh1">OOOOHHH NOOOOO!!!</h1>
+        <p id="indexp" class="sub">Enderdragen er sluppet ud af the end. Hvad skal der ske nu?</p>
       </div>
     </div>
   </section>
   <main>
     <section id="daily">
       <article class="daily_card">
-        <img src="" alt="teaser_img" />
+        <img src="/img/chest.jpg" alt="chest" />
         <div class="daily_text">
-          <h2>Teaser</h2>
+          <h2>Tjekliste</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-            magnam ducimus ea, sed minima asperiores.
+            Har du udstyret til forsvare dig selv, eller måske endda besejre den frygtindgydende Enderdragon?
           </p>
-          <a href="" class="cta_btn">Se mere</a>
+          <a href="instruction.html" class="cta_btn">Se mere</a>
         </div>
       </article>
       <article class="daily_card">
-        <img src="" alt="teaser_img" />
+        <img src="/img/sad_villager.png" alt="villager" />
         <div class="daily_text">
-          <h2>Teaser</h2>
+          <h2>Vi har brug for din hjælp!</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-            magnam ducimus ea, sed minima asperiores.
+            For at besejre Enderdragon, bliver vi nød til at slå os sammen. Udfyld vores formular, så vi kan skabe en
+            hær og besejre vores fælles fjende.
           </p>
-          <a href="" class="cta_btn">Se mere</a>
+          <a href="register.html" class="cta_btn">Se mere</a>
         </div>
       </article>
     </section>
     <section id="breaking">
 
       <article class="news_card">
-        <h3>Nyhed</h3>
-        <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-        <img src="" alt="news_img" />
+        <h3>Mærkelig Steve fundet!</h3>
+        <p>Er det også Enderdragons skyld?</p>
+        <button class="cta_btn" popovertarget="popup1">Se mere</button>
+
+        <div popover id="popup1">
+          <img src="img/sideways_steve.png" alt="sideways steve">
+          <p>WHAAAAT??</p>
+        </div>
+        <!-- <img src="" alt="news_img" />
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est odio assumenda id in nam ipsam quo vel
           asperiores, excepturi, ipsa vero totam alias inventore sequi ea nihil corrupti. Nam, voluptates?</p>
 
@@ -85,14 +128,21 @@
           </form>
         </dialog>
 
-        <button class="cta_btn" id="cta_open1" href="">Læs mere</button>
+        <button class="cta_btn" id="cta_open1" href="">Læs mere</button> -->
       </article>
 
 
       <article class="news_card">
-        <h3>Nyhed</h3>
-        <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-        <img src="" alt="news_img" />
+        <h3>Hvor bliver alle køerne af?</h3>
+        <p>Løber vi tør for mælk?</p>
+        <button class="cta_btn" popovertarget="popup2">Se mere</button>
+
+        <div popover id="popup2">
+          <img src="img/sad_cow.jpg" alt="cow">
+          Køer overalt i overworld, er begyndt at forsvinde. Er det Enderdragon der mon har dræbt dem alle, eller er det
+          et helt andet mysterium?
+        </div>
+        <!-- <img src="" alt="news_img" />
 
         <dialog id="dialog2">
           <form method="dialog">
@@ -101,17 +151,16 @@
           </form>
         </dialog>
 
-        <button class="cta_btn" id="cta_open2" href="">Læs mere</button>
+        <button class="cta_btn" id="cta_open2" href="">Læs mere</button> -->
       </article>
 
 
       <article class="news_card">
-        <h3>Nyhed</h3>
-        <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-        <button class="cta_btn" popovertarget="popup">Open popup</button>
+        <h3>Herobrine</h3>
+        <p>Hvem er det?</p>
+        <button class="cta_btn" popovertarget="popupherobrine">Se mere</button>
 
-        <div popover id="popup">
-
+        <div popover id="popupherobrine">
           <img src="img/herobrine.jpg" alt="herobrine">
         </div>
 
@@ -132,26 +181,26 @@
   <footer>
     <nav class="some">
       <ul>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
       </ul>
     </nav>
     <nav class="another">
       <ul>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
       </ul>
     </nav>
     <nav class="yetanother">
       <ul>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
-        <li><a href="">link</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
       </ul>
     </nav>
   </footer>
