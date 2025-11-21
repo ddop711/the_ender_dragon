@@ -1,81 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/burger.css" />
-    <link rel="stylesheet" href="css/cards.css" />
-    <link rel="stylesheet" href="css/form.css" />
-    <link rel="icon" type="image/png" href="img/fav.png" />
-    <title>Emergency Site</title>
-  </head>
-  <body id="register">
-    <header>
-      <nav>
-        <div id="logotype-wrapper" class="logo">
-          <a href="index.html"> LOGO-TYPE </a>
-        </div>
-        <ul class="menu">
-          <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
-          <li><a class="menuItem" href="register.html">Indberet</a></li>
-        </ul>
-        <button class="burger">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
-        </button>
-      </nav>
-    </header>
+<html lang="da">
 
-    <main>
-      <h1>INDBERET</h1>
-      <section id="form-section">
-        <article id="form-info">
-          <h2>Overskrift</h2>
-          <p>Tekst</p>
-        </article>
-        <form id="webform"></form>
-      </section>
-      <section id="form-summary">
-        <h2>Summary</h2>
-        <article>
-          <p class="placeholder">Opsummering</p>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <nav class="some">
-        <ul>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-        </ul>
-      </nav>
-      <nav class="another">
-        <ul>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-        </ul>
-      </nav>
-      <nav class="yetanother">
-        <ul>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-        </ul>
-      </nav>
-    </footer>
-    <script src="js/burger.js"></script>
-    <!-- <script src="js/main.js"></script> -->
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/burger.css" />
+  <link rel="stylesheet" href="css/cards.css" />
+  <link rel="stylesheet" href="css/forms.css" />
+  <link rel="icon" type="image/png" href="img/fav.png" />
+  <title>Emergency Site</title>
+</head>
+
+<body id="register">
+  <header>
+    <nav>
+      <div id="logotype-wrapper" class="logo">
+        <a href="index.html">
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="25.13mm" height="12.22mm"
+            viewBox="0 0 173.29 136.67">
+            <g>
+              <rect x="17.28" y=".58" width="137.83" height="135.59" style="fill: #fdcc9a;" />
+              <path d="M155.61,136.67H16.78V.08h138.83v136.59ZM17.78,135.67h136.83V1.08H17.78v134.59Z" />
+            </g>
+            <g>
+              <polygon
+                points=".5 .5 .5 51.35 .5 68.3 17.73 68.3 17.73 51.35 69.42 51.35 69.42 85.24 103.88 85.24 103.88 51.35 155.56 51.35 155.56 68.3 172.79 68.3 172.79 51.35 172.79 .5 .5 .5"
+                style="fill: #69f6ff;" />
+              <path
+                d="M104.38,85.74h-35.46v-33.9H18.23v16.95H0V0h173.29v68.8h-18.23v-16.95h-50.69v33.9ZM69.92,84.74h33.46v-33.9h52.69v16.95h16.23V1H1v66.8h16.23v-16.95h52.69v33.9Z" />
+            </g>
+            <g>
+              <rect x="103.42" y="68.38" width="17.23" height="16.95" style="fill: #1c75bc;" />
+              <path d="M121.15,85.83h-18.23v-17.95h18.23v17.95ZM103.92,84.83h16.23v-15.95h-16.23v15.95Z" />
+            </g>
+            <g>
+              <rect x="120.65" y="68.38" width="17.23" height="16.95" style="fill: #fff;" />
+              <path d="M138.38,85.83h-18.23v-17.95h18.23v17.95ZM121.15,84.83h16.23v-15.95h-16.23v15.95Z" />
+            </g>
+            <g>
+              <rect x="34.51" y="68.38" width="17.23" height="16.95" style="fill: #fff;" />
+              <path d="M52.23,85.83h-18.23v-17.95h18.23v17.95ZM35.01,84.83h16.23v-15.95h-16.23v15.95Z" />
+            </g>
+            <g>
+              <rect x="51.73" y="68.38" width="17.23" height="16.95" style="fill: #1c75bc;" />
+              <path d="M69.46,85.83h-18.23v-17.95h18.23v17.95ZM52.23,84.83h16.23v-15.95h-16.23v15.95Z" />
+            </g>
+            <g>
+              <polygon
+                points="86.19 102.28 86.19 102.28 68.96 102.28 68.96 119.23 86.19 119.23 86.19 119.23 103.42 119.23 103.42 102.28 86.19 102.28"
+                style="fill: #d38766;" />
+              <path d="M103.92,119.73h-35.46v-17.95h35.46v17.95ZM69.46,118.73h33.46v-15.95h-33.46v15.95Z" />
+            </g>
+          </svg>
+        </a>
+        <div class="darkmodebtn"><img src="img/nether_portal.jpg" alt="nether portal"></div>
+      </div>
+      <ul class="menu">
+        <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
+        <li><a class="menuItem" href="register.html">Indberet</a></li>
+      </ul>
+      <button class="burger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <h1>INDBERET</h1>
+    <section id="form-section">
+      <article id="form-info">
+      </article>
+
+      <form id="webform">
+
+        <fieldset>
+          <legend>Hvilken dimension er du i?</legend>
+
+          <div class="form-row">
+            <select name="dimension" id="dimension" required>
+              <option value="" disabled selected>Vælg dimension</option>
+              <option value="Overworld">Overworld</option>
+              <option value="Nether">Nether</option>
+              <option value="End">End</option>
+            </select>
+            <p class="error-message">Du skal vælge en dimension</p>
+          </div>
+        </fieldset>
+
+        <!-- CHECKBOXES: alle kræves -->
+        <fieldset>
+          <legend>Har du alt hvad du skal bruge?</legend>
+
+          <div class="checkbox-group">
+            <div class="checkbox">
+              <input type="checkbox" id="sword" name="sword" />
+              <label for="sword">Sword</label>
+            </div>
+
+            <div class="checkbox">
+              <input type="checkbox" id="bow" name="bow" />
+              <label for="bow">Bow</label>
+            </div>
+
+            <div class="checkbox">
+              <input type="checkbox" id="apple" name="apple" />
+              <label for="apple">Golden Apple</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="form-row">
+            <label for="bange">Hvor bange er du?</label>
+            <input type="range" id="bange" name="bange" min="1" max="10" required />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Er du klar?</legend>
+          <button type="submit">JAAAAA</button>
+        </fieldset>
+
+      </form>
+    </section>
+
+    <section id="form-summary">
+      <h2>Summary</h2>
+      <article>
+        <p class="placeholder">Opsummering</p>
+      </article>
+    </section>
+
+
+
+  </main>
+  <footer>
+    <nav class="some">
+      <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </nav>
+    <nav class="another">
+      <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </nav>
+    <nav class="yetanother">
+      <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="js/burger.js"></script>
+  <script src="js/darkmode.js"></script>
+  <script src="js/forms.js"></script>
+  <!-- <script src="js/main.js"></script> -->
+</body>
+
 </html>

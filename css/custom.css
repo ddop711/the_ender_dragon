@@ -1,17 +1,17 @@
 :root {
   /* Colours */
-  --color-bg: #000000; /* page background /*
+  --color-bg: #707070; /* page background /*
 
   /* Header */
-  --color-head-bg: #9b7653;
+  --color-head-bg: #96632f;
 
   /* Logotype */
-  --color-logotype-bg: #5b8731;
+  --color-logotype-bg: #669f18;
   --color-text-logotype: #fff;
   --font-logotype-size: 1rem;
 
   /* Global menu */
-  --color-menu-bg: #5b8731;
+  --color-menu-bg: #669f18;
   /* Links */
   --color-link-bg: #78766e;
   --color-link-hover: #fff; /* used */
@@ -23,27 +23,27 @@
   --font-sub1-size: 1rem;
   --font-h2-size: 1rem;
   --font-h3-size: 1rem;
-  --color-headline-bg: #4b4545;
-  --color-headline-text-page: #42413d;
+  --color-headline-bg: #669f18;
+  --color-headline-text-page: #ffffff;
 
   /* Tekst */
-  --color-text: #000;
-  --color-text-inverted: #cdccc4;
+  --color-text: #ffffff;
+  --color-text-inverted: #000000;
 
   /*  Marginer */
-  --margin-head-bottom: 5px;
+  --margin-head-bottom: 25px;
 
   /* Borders */
   --border-radius: 5px;
 
   /* Cards */
-  --color-card-bg: #8a8585;
-  --color-cta-card-bg: #d5d2d0;
+  --color-card-bg: #96632f;
+  --color-cta-card-bg: #fedfae;
   /* news-cards */
-  --color-news-bg: #dbdad4;
-  --color-news-bg-inverted: #585a5e;
-  --color-cta-newscard-bg: #787473;
-  --color-cta-newscard-bg-inverted: #7b7d83;
+  --color-news-bg: #96632f;
+  --color-news-bg-inverted: #96632f;
+  --color-cta-newscard-bg: #fedfae;
+  --color-cta-newscard-bg-inverted: #fedfae;
 
   /* Fonts */
   --font-family-sans: ui-sans-serif;
@@ -66,4 +66,124 @@
   --color-info-bg: #676161;
   --color-infobox-1-bg: #cfcec6;
   --color-infobox-2-bg: #969995;
+
+  /* Minecraft colours  */
+  /* Overworld */
+  --color-dirt: #96632f;
+  --color-grass: #669f18;
+  --color-water: #387dfb;
+  --color-stone: #707070;
+  --color-sand: #fedfae;
+
+  /* Nether */
+  --color-nether-1: #fe8738;
+  --color-nether-2: #840000;
+  --color-nether-3: #119b84;
+  --color-nether-4: #723232;
+  --color-nether-5: #511515;
+  --color-nether-6: #fff325;
+  --color-nether-7: #7833ae;
+}
+
+html.dark {
+  /* Colours */
+  --color-bg: #511515; /* page background /*
+
+  /* Header */
+  --color-head-bg: #840000;
+
+  /* Logotype */
+  --color-logotype-bg: #119b84;
+  --color-text-logotype: #fe8738;
+  --font-logotype-size: 1rem;
+
+  /* Global menu */
+  --color-menu-bg: #119b84;
+  /* Links */
+  --color-link-bg: #840000;
+  --color-link-hover: #fe8738; /* used */
+  --color-link-active: #fe8738; /* used */
+  --border-radius-links: 1px;
+
+  /* Headlines og rubrik */
+  --font-h1-size: 1rem;
+  --font-sub1-size: 1rem;
+  --font-h2-size: 1rem;
+  --font-h3-size: 1rem;
+  --color-headline-bg: #119b84;
+  --color-headline-text-page: #fe8738;
+
+  /* Tekst */
+  --color-text: #fe8738;
+  --color-text-inverted: #7833ae;
+
+  /*  Marginer */
+  --margin-head-bottom: 25px;
+
+  /* Borders */
+  --border-radius: 5px;
+
+  /* Cards */
+  --color-card-bg: #840000;
+  --color-cta-card-bg: #000000;
+  /* news-cards */
+  --color-news-bg: #840000;
+  --color-news-bg-inverted: #840000;
+  --color-cta-newscard-bg: #000000;
+  --color-cta-newscard-bg-inverted: #000000;
+
+  /* Fonts */
+  --font-family-sans: ui-sans-serif;
+  /* --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700; */
+
+  /* Text sizes */
+  --logotype-size: 1rem;
+  --headline1-size: 2rem;
+  --headline2-size: 1rem;
+  --headline3-size: 1rem;
+  --bodytext-size: 1rem;
+  --cta-text-size: 1rem;
+  --followup-text-size: 1rem;
+  --form-submit-size: 1rem;
+
+  /* Infographics */
+  --color-info-bg: #676161;
+  --color-infobox-1-bg: #cfcec6;
+  --color-infobox-2-bg: #969995;
+
+  .info-text {
+    background-color: #840000;
+  }
+  .info-box {
+    padding: 1.5rem 1rem 0.5rem 1rem;
+    background-color: #840000;
+    border-top: solid black 1px;
+  }
+  .info-box:nth-of-type(2n) {
+    background-color: #840000;
+  }
+
+  #webform {
+    background-color: black;
+    color: var(--color-nether-7);
+  }
+
+  #form-section,
+  #form-summary {
+    background-color: black;
+    color: var(--color-nether-7);
+  }
+  #form-summary h2 {
+    color: var(--color-nether-7);
+  }
+  #form-summary p {
+    color: var(--color-nether-7);
+  }
+
+  #webform button {
+    color: var(--color-nether-7);
+  }
 }
